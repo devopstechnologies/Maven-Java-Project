@@ -103,12 +103,14 @@
           <name>Mithun Technologies Releases JFrog Repository</name>
           <url>http://localhost:8085/artifactory/maven-releases</url>
         </repository>
+		<!--
         <snapshotRepository>
           <id>JFrogArtifactory</id>
           <name>Mithun Technologies Snapshot JFrog Repository </name>
           <url>http://localhost:8085/artifactory/maven-snapshots</url>
         </snapshotRepository>
       </distributionManagement>
+	  -->
 
    <profiles>
         <profile>
