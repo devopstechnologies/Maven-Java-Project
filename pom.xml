@@ -109,8 +109,9 @@
           <name>Mithun Technologies Snapshot JFrog Repository </name>
           <url>http://localhost:8085/artifactory/maven-snapshots</url>
         </snapshotRepository>
+		-->
       </distributionManagement>
-	  -->
+	  
 
    <profiles>
         <profile>
