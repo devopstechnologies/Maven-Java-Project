@@ -1,9 +1,7 @@
 #!groovy
 
 pipeline {
-	agent {
-		label "windows"
-	}
+
 	tools {
 		maven 'Maven'
 		jdk 'Java'
