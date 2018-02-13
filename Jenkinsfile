@@ -5,17 +5,17 @@ pipeline {
 		label "windows"
 	}
 	tools {
-		maven "Maven3.5.2"
-		jdk "java8"
+		maven "Maven"
+		jdk "Java"
 	}
 	stages {
-		stage {'Intialize'} {
+		stage ('Intialize') {
 		steps {
-			echo "PATH = $PATH"
-			echo "MAVEN = $MAVEN_HOME"
+			echo "PATH = %PATH%"
+			echo "MAVEN = %MAVEN_HOME%"
 		}
 		}
-		stage {'build'} {
+		stage ('build') {
 			steps {
 				bat 'mvn clean install'
 			}
