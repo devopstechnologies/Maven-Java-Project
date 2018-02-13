@@ -1,7 +1,7 @@
 #!groovy
 
 node {
-	current.build = "SUCCESS"
+	currentbuild.RESULT = "SUCCESS"
 
 	tools {
 		maven 'Maven'
