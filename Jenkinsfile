@@ -1,7 +1,7 @@
 #!groovy
 
-pipeline {
-	agent {
+node {
+	current.build = "SUCCESS"
 
 	tools {
 		maven 'Maven'
@@ -22,4 +22,4 @@ pipeline {
 	}
 }
 			
-}
+
