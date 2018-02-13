@@ -5,8 +5,8 @@ pipeline {
 		label "windows"
 	}
 	tools {
-		maven "Maven"
-		jdk "Java"
+		maven 'Maven'
+		jdk 'Java'
 	}
 	stages {
 		stage ('Intialize') {
