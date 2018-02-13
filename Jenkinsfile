@@ -1,6 +1,7 @@
 #!groovy
 
 pipeline {
+	agent {
 
 	tools {
 		maven 'Maven'
@@ -21,3 +22,4 @@ pipeline {
 	}
 }
 			
+}
